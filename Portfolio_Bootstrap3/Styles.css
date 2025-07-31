@@ -1,0 +1,339 @@
+ .container-fluid {
+     background-color: rgb(87, 137, 87);
+     background-position: top;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 400px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: larger;
+     width: 100%;
+     height: 800px;
+
+    background-image: radial-gradient(rgb(140, 230, 140), rgb(87, 137, 87),rgb(8, 8, 7));
+ }
+ .card-body{
+    height: 200%;
+ }
+ .pic{
+   border-radius:52px 52px 52px 52px;
+   margin-right: 5px;
+   width:250px;
+   height: 250px;
+ 
+ }
+H6{
+    
+margin-left:-25%;
+    text-align: center;
+    margin-bottom: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:80px;
+    color: WHITE;
+}
+
+  .footer{
+
+    width:102%;
+    height:36%;
+    margin-top: 28%;
+    background-color: rgb(15, 1, 1);
+    margin-left:-1%;
+  
+  }
+
+  .footerbtn{
+    margin-top:-30px;
+    margin-left: 50px;
+    
+  }
+  .btn{
+    margin-left:18%;
+    margin-top: 10%;
+    color: rgb(10, 1, 1); 
+    border-color: white;
+    background-color: beige;
+  }
+
+  h3{
+    text-align: center;
+    margin-left:1%;
+    font-size:50px;
+    color:white;
+    margin-top:2%;
+    word-spacing: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   letter-spacing:40px;
+
+
+  }
+  @media screen and (max-width: 768px) {
+        .button-container {
+            flex-direction: column;
+            
+            align-items: center;
+            
+        }
+    }
+    .button-container{
+        height:100% ;
+        width:800px;
+    }
+    .col{
+        width: 100px;
+    }
+
+ .nav-link {
+     color: rgb(248, 244, 244);
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: larger;
+     text-shadow: 2px rgb(149, 175, 149);
+     word-spacing: 100%;
+ }
+
+
+ .lightbox:target::before {
+     content: "✖";
+     position: absolute;
+     top: 20px;
+     right: 40px;
+     font-size: 30px;
+     color: white;
+     text-decoration: none;
+     cursor: pointer;
+
+ }
+
+ .lightbox:target {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.9);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: 9999;
+ }
+
+ .lightbox {
+     box-sizing: border-box;
+     height:100px;
+ }
+
+ .lightbox2:target {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.9);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: 9999;
+
+ }
+
+ .lightbox2:target::before {
+     content: "✖";
+     position: absolute;
+     top: 20px;
+     right: 40px;
+     font-size: 30px;
+     color: white;
+     text-decoration: none;
+     cursor: pointer;
+ }
+.col{
+   color:white;
+   margin-top: 15%;
+}
+.carousel-slide{
+    height:500%;
+}
+ .content {
+     background-color: rgb(130, 98, 71);
+     font-size: larger;
+     color: rgb(2, 0, 3);
+     padding-left: -5%;
+
+ }
+
+ .col-6 {
+     padding-left: 5%;
+     margin: -1%;
+ }
+
+ .lightbox3 {
+     display: grid;
+     box-sizing: border-box;
+     border-color: 2px solid red;
+
+ }
+
+ .lightbox3:target {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.9);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: 9999;
+ }
+
+ .lightbox3:target::before {
+     content: "✖";
+     position: absolute;
+     top: 20px;
+     right: 40px;
+     font-size: 30px;
+     color: white;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ .card-body1{
+    background-color: rgb(165, 204, 105);
+    background-image: linear-gradient(to right,rgb(159, 153, 153), rgb(181, 241, 124));
+    color: black;
+ }
+ .h5{
+    color: white;
+ }
+
+ .container3 .table{
+    background-color: blueviolet;
+ }
+ .lightbox3{
+
+     gap:10%;
+     width: 500px;
+    transition: width 1s , height 1s;
+ }
+
+
+ .col {
+     display: grid;
+     box-sizing: border-box;
+     border-radius: 5px 5px 5px 5px;
+     width: 400px;
+     height: 200px;
+
+ }
+
+ .container1 {
+     margin: 5%;
+     box-sizing: border-box;
+     border-radius: 15px 15px 15px 15px;
+     height: 40px;
+     font-size: x-small;
+     padding-left: 8%;
+
+ }
+
+ .card {
+     box-shadow: 10px 10px 10px 10px black;
+ }
+
+ h1 {
+     text-align: center;
+     margin-right: 10px;
+     padding-left: 500px;
+    
+     font-size: 65px;
+     margin-top: -210px;
+     color: white;
+     text-shadow: 5px 5px 5px white;
+     font-family: 'Times New Roman', Times, serif;
+     font-style: BOLD;
+
+ }
+
+.form{
+    text-align: center;
+    width:50%;
+}
+ h4 {
+     text-align: center;
+     padding-right: 20px;
+     margin-right: 00px;
+     padding-left: 500px;
+     font-size: 30px;
+     margin-top: 0px;
+     color: white;
+     text-shadow: 5px 5px 5px black;
+ }
+
+ .table {
+
+     width: 1000px;
+     height: 50px;
+     margin-left: -50%;
+     height: 500px;
+     text-align: center;
+ }
+
+
+
+ .lightbox4:target {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.9);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     z-index: 9999;
+ }
+
+ .lightbox4:target::before {
+     content: "✖";
+     position: absolute;
+     top: 20px;
+     right: 40px;
+     font-size: 30px;
+     color: white;
+     text-decoration: none;
+     cursor: pointer;
+ }
+
+.container4{
+    display: block;
+}
+.form-label{
+    color:white;
+   margin-right:150%;
+   width:20%;
+     
+   
+}
+.carousel-inner{
+    align-content: top;
+}
+.container-form{
+    margin-left:100%;
+}
+h2{
+     margin-right:50%;
+     padding-left: 400px;
+    
+     font-size: 65px;
+     margin-top: -210px;
+     color: white;
+     text-shadow: 5px 5px 5px white;
+     font-family: 'Times New Roman', Times, serif;
+     font-style: BOLD;}
+
+     .card-body{
+        
+         background-color: rgb(165, 204, 105);
+    background-image: linear-gradient(to right,rgb(159, 153, 153), rgb(181, 241, 124));
+    color: black;
+    height: fit-content;
+    
+     }

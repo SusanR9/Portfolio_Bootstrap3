@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <div class="container">
+        
+        <div class="container-fluid">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Resume">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+
+            <div class="container1">
+           
+                    <div class="card mb-3" style="max-width: 340px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+
+                                <img src="Mypic.jpeg" class="img-fluid rounded-start" alt="...">
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title"> Quote</h5>
+                                <p class="card-text">"A portfolio is not just a collection of projects; it's a testament to your capabilities." </p>
+                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                                </p>
+                                
+                                                              
+                            </div>
+                            
+                        </div>
+                    </div>
+                      <h1>SUSAN VERONICA </h1>
+        <h4>Fullstack Developer</h4>
+                </div>
+            </div>
+            
+        </div>
+        
+
+    </div>
+    <div id="About" class="lightbox">
+        <div class="card mb-3" style="max-width: 540px;" id="About">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="Mypic.jpeg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">About Me !</h5>
+                        <p class="card-text">I'm Susan veronica , Fullstack developer</p>
+                        <p class="card-text">I have a strong command over both front-end and back-end technologies,
+                            allowing me to build complete and scalable applications.
+                            On the front-end side, I specialize in HTML, CSS, and JavaScript frameworks such as React
+                            and Angular. I’m passionate about creating intuitive user interfaces that provide an
+                            exceptional user experience. I pay great attention to detail, ensuring that the websites or
+                            applications I develop are responsive, visually appealing, and accessible across different
+                            devices and browsers.
+                        </p>
+                        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="Resume" class="lightbox3">
+      
+      <div class="container3" id="resume"></div>
+        <table class="table">
+  <thead>
+    <tr>
+      
+      <th scope="col"><b>Experience</b></th>
+      <th scope="col"><b>Education</b></th>
+      
+     
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Fullstack
+        <p>Front-end skills
+          <h5>Html,css,javascript,reactjs,Bootstrap</h5>
+        </p>
+        <p>Back-end skills
+          <h5>Python,Django etc</h5>
+        </p>
+      </th>
+      
+      <td>MBA(Hrm)-University of Madras
+        <p>82%</p>
+        <H5>Chennai</H5>
+      </td>
+    </tr>
+ <tr>
+      <th scope="row">HR Executive(Recruiter & Generalist)
+        <p>Recruitment-IT & Non-IT Skills </p>
+        <h5>Generalist- All Firm works related with employees</h5>
+      </th>
+      <td>BCA-Stella Maris college
+        <p>78%</p>
+        <h5>Chennai</h5>
+      </td>
+      
+    </tr>
+  </tbody>
+</table></div></div></div>
+
+
+
+    
+<div id="Portfolio" class="lightbox3">
+        <div id="carouselExample" class="carousel slide" id="portfolio">
+<h1>Portfolio</h1><br>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                  
+                    <img src="p8.jpeg" class="d-block w-100" alt="..." >  
+                </div>
+                <div class="carousel-item">
+                    <img src="p9.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="p10.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
+    </div>
+  
+<div id="contact" class="lightbox4">
+<div class="container text-center">
+  <div class="row">
+    <h1>Contact Me:</h1> 
+    <div class="col"> 
+        <h3><b>Name:</b>Susan Veronica R</h3> 
+        <H3><b>PhNo:</b>7904525555</H3>
+         <H3><b>Email Address:sus123@gmail.com</b>7904525555</H3>
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+
+</html>
